@@ -6,6 +6,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/last-faang/100DaysOfData/tree/master/0001-two-sum) |
+| [0011-container-with-most-water](https://github.com/last-faang/100DaysOfData/tree/master/0011-container-with-most-water) |
 # Hash Table
 |  |
 | ------- |
@@ -34,3 +35,11 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0226-invert-binary-tree](https://github.com/last-faang/100DaysOfData/tree/master/0226-invert-binary-tree) |
+# Two Pointers
+|  |
+| ------- |
+| [0011-container-with-most-water](https://github.com/last-faang/100DaysOfData/tree/master/0011-container-with-most-water) |
+# Greedy
+|  |
+| ------- |
+| [0011-container-with-most-water](https://github.com/last-faang/100DaysOfData/tree/master/0011-container-with-most-water) |
