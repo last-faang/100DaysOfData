@@ -12,11 +12,10 @@ class Solution:
             array.append(right.val)
             right = right.next
 
-        for i in range(len(array) - 1, -1, -1):
-            if array[i] != left.val:
+        while array:
+            if len(array) == 1:
+                return True
+            if array.pop(0) != array.pop():
                 return False
-            
-            array.pop()
-            left = left.next
 
         return True
