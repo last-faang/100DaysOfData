@@ -1,17 +1,17 @@
-import math
-
 class Solution:
     def sum_squares(self, n: int) -> int:
         result = 0
         str_n = str(n)
-        digits = len(str_n)
         
-        for i in range(digits):
-            result += int(math.pow(int(str_n[i]), 2))
+        for digit in str_n:
+            result += int(digit) ** 2
         
         return result
 
-    def isHappy(self, n: int, checked_num: dict = {}) -> bool:
+    def isHappy(self, n: int, checked_num: dict = None) -> bool:
+        if checked_num is None:
+            checked_num = {}
+        
         if self.sum_squares(n) == 1:
             return True
         
