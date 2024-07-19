@@ -4,9 +4,11 @@ class Solution:
 
         while left <= right:
             mid = left + (right - left) // 2
+            
             if nums[mid] == target:
                 return mid
-            elif nums[mid] > target:
+
+            if nums[mid] > target:
                 right = mid - 1
             else:
                 left = mid + 1
