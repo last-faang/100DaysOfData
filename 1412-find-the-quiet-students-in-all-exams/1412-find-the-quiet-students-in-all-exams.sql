@@ -19,4 +19,5 @@ LEFT JOIN min_max_list
 GROUP BY
     Student.student_id,
     Student.student_name  
-HAVING COUNT(min_max_list.exam_id) = 0;
+HAVING COUNT(min_max_list.exam_id) = 0
+ORDER BY Student.student_id;
